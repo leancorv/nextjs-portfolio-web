@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { ContactMe } from './partials/ContactMe'
 
 export default function Home() {
   return (
@@ -108,6 +109,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <ContactMe/>
     </main>
   )
 }
