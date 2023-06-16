@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { Footer } from './partials/Footer'
 import Header from '@/components/Header/Header'
+import { Provider } from './Provider';
 
 const interVariable = Inter({ subsets: ['latin'] });
 
@@ -18,14 +19,16 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="bg-gray-50 dark:bg-gray-900 transition ease">
-        <Header />
-        <main className={
-              interVariable.className +
-              " min-w-xs max-w-screen-lg flex flex-col justify-center items-center mx-auto"
-            }>
-          {children}
-        </main>
+        <Provider>
+          <Header />
+          <main className={
+                interVariable.className +
+               " min-w-xs max-w-screen-lg flex flex-col justify-center items-center mx-auto"
+             }>
+           {children}
+          </main>
         <Footer/>
+        </Provider>
       </body>
     </html>
   )
