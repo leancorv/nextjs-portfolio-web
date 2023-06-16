@@ -73,7 +73,7 @@ export const Footer = () => {
             className="flex items-center gap-2 text-gray-500 hover:text-gray-600 transition ease"
             target="_blank"
             rel="noreferrer"
-            href={"https://github.com/ismox1440"}
+            href={"https://github.com/leancorv"}
           >
             <AiFillGithub className="w-5 h-5" />
             Github
@@ -82,7 +82,7 @@ export const Footer = () => {
             className="flex items-center gap-2 text-gray-500 hover:text-gray-600 transition ease"
             target="_blank"
             rel="noreferrer"
-            href={"https://www.linkedin.com/in/ismael-saragusti-664260213/"}
+            href={"https://www.linkedin.com/in/leancorv/"}
           >
             <AiFillLinkedin className="w-5 h-5" />
             Linkedin
@@ -111,7 +111,7 @@ export const Footer = () => {
           </Link>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1cUkTwOB46blnFusEOv18NY50RBtFu--r/view"
+            href="https://drive.google.com/file/d/"
             className="flex items-center gap-2 text-gray-500 hover:text-gray-600 transition ease"
           >
             <RiFilePaperFill className="w-5 h-5" />
