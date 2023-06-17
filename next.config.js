@@ -9,6 +9,8 @@ const nextConfig = {
       images: {
         domains: [
           "res.cloudinary.com",
+          "i.postimg.cc",
+          "raw.githubusercontent.com",
         ],
       },
 }

@@ -1,6 +1,7 @@
 import { AboutMe } from './partials/AboutMe'
 import { ContactMe } from './partials/ContactMe'
 import { Hero } from './partials/Hero'
+import LastProjects from './partials/LastProjects'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Hero />
       <div className="w-full flex flex-col items-start">
         <AboutMe />
-        {/* <LastProyects /> */}
+        <LastProjects />
         <ContactMe />
       </div>
     </div>
