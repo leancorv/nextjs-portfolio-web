@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { Footer } from './partials/Footer'
 import Header from '@/components/Header/Header'
 import { Provider } from './Provider';
+import { CirclesColorBg } from '@/components/CirclesColorBg';
 
 const interVariable = Inter({ subsets: ['latin'] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
            {children}
           </main>
         <Footer/>
+        <CirclesColorBg />
         </Provider>
       </body>
     </html>
