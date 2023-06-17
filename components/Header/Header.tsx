@@ -13,7 +13,7 @@ const items = [
   },
   {
     icon: <BiArchive size={20} />,
-    href: "/proyectos",
+    href: "/projects",
     title: "Proyectos",
   },
   {

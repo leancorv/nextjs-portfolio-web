@@ -4,7 +4,7 @@ import { AnimateComponent } from "@/utils/AnimateComponent";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import Link from "next/link";
 
-const lastProyects = [
+const lastProjects = [
   {
     image:
       "https://i.postimg.cc/mDZQ9F98/My-Movies-App.png",
@@ -51,7 +51,7 @@ const LastProjects = () => {
       </p>
 
       <ul className="flex flex-col lg:flex-row gap-6 w-[80%] mx-auto lg:w-full">
-        {lastProyects.map((p) => (
+        {lastProjects.map((p) => (
           <li
             key={p.title}
             className=" w-full bg-gray-50 dark:bg-gray-900 dark:bg-opacity-20 bg-opacity-20 backdrop-filter backdrop-blur-sm  rounded-xl dark:border-gray-700 border border-gray-300"
