@@ -18,7 +18,7 @@ const items = [
   },
   {
     icon: <BsPerson size={20} />,
-    href: "/sobremi",
+    href: "/aboutme",
     title: "Sobre mi",
   },
   {
