@@ -2,19 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .backgroundCirclesColors {
   inset: 0px;
   position: absolute;
   z-index: -1;
   background: radial-gradient(
       circle at top left,
-      rgba(0, 51, 255, 0.15) 0%,
+      rgba(0, 183, 255, 0.15) 0%,
       rgba(0, 0, 0, 0) 25%,
       rgba(128, 128, 128, 0) 100%
     ),
     radial-gradient(
       circle at 85% 30%,
-      rgba(0, 26, 255, 0.28) 0%,
+      rgba(0, 183, 255, 0.26) 0%,
       rgba(0, 0, 0, 0) 30%,
       rgba(128, 128, 128, 0) 25%
     );
@@ -23,14 +24,14 @@
 @media (min-width: 900px) {
   .backgroundCirclesColors {
     background: radial-gradient(
-        circle at 15% 55%,
-        rgba(0, 51, 255, 0.15) 0%,
+        circle at 15% 55%,  
+        rgba(0, 183, 255, 0.15) 0%,
         rgba(0, 0, 0, 0) 25%,
         rgba(128, 128, 128, 0) 100%
       ),
       radial-gradient(
         circle at 85% 30%,
-        rgba(0, 26, 255, 0.28) 0%,
+        rgba(0, 183, 255, 0.26) 0%,
         rgba(0, 0, 0, 0) 30%,
         rgba(128, 128, 128, 0) 25%
       );
