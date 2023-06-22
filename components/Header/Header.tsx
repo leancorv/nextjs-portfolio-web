@@ -4,6 +4,7 @@ import { AnimateComponent } from "@/utils/AnimateComponent";
 import MobileNav from "./MobileNav";
 import NavItem from "./NavItem";
 import ThemeButton from "./ThemeButton";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const items = [
   {
@@ -25,6 +26,18 @@ const items = [
     icon: <BsDownload size={20} />,
     href: "https://drive.google.com/file/",
     title: "Curriculum",
+    external: true,
+  },
+  {
+    icon: <AiFillGithub size={20} />,
+    href: "https://github.com/leancorv",
+    title: "Github",
+    external: true,
+  },
+  {
+    icon: <AiFillLinkedin size={20} />,
+    href: "https://www.linkedin.com/in/leancorv/",
+    title: "Linkedin",
     external: true,
   },
 ];
