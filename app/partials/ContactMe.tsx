@@ -18,7 +18,7 @@ const contactItems = [
   {
     name: "Celular",
     value: "+5491132782801",
-    href: "https://t.me/leancorv",
+    href: "https://wa.link/97yd31",
     blank: true,
     icon: <BsFillTelephoneFill size={30} />,
   },
