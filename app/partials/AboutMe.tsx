@@ -8,7 +8,7 @@ export const AboutMe = () => {
       </h2>
 
       <p className="text-base text-gray-600 dark:text-gray-400">
-        Soy Mobile Developer y estudiante de Ciencias de Datos.📱
+        Soy Mobile Developer y estudiante de Ciencias de la Computación.📱
         Estoy en la búsqueda de desarrollar mi carrera profesional y hacer lo que amo: La tecnología y la programación.🚀
         Siempre con muchas ganas de aprender, desarrollarme, sobrepasar expectativas, trabajar en equipo y apuntar hacia el futuro.✨
         <br></br>
