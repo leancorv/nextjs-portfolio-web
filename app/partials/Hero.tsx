@@ -12,7 +12,7 @@ const items = [
   },
   {
     icon: <BsDownload size={20} />,
-    href: "https://drive.google.com/file/d/1ulSGOQEaTJj_kjjw7sta3Jb3bYn2LTXz/view",
+    href: "https://drive.google.com/file/d/13dCnaFS_OoPAmZRLpa_-i4BsDjb6LguP/view",
     title: "CV",
     external: true,
   },
