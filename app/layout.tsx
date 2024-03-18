@@ -9,8 +9,8 @@ const interVariable = Inter({ subsets: ['latin'] });
 export const metadata = {
   openGraph: {
     title: "Leandro Corvalan - Portfolio",
-    siteName: "leancorv.ar",
-    url: "https://www.leancorv.ar/",
+    siteName: "leancorv.tech",
+    url: "https://www.leancorv.tech/",
     type: "website",
     description:
       "Mobile developer. Flutter, Kotlin and Android developer. Mobile apps, clean arquitecture, and more...",
@@ -21,7 +21,7 @@ export const metadata = {
         height: 630,
       },
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/v1687410988/leancorv.ar_wax8lq.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/v1687410988/leancorv.tech_wax8lq.jpg",
         width: 600,
         height: 200,
         alt: "og image",
@@ -46,13 +46,13 @@ export const metadata = {
     "leandro corvalan portfolio",
     "leancorv porfiolio",
     "lean portfolio",
-    "leancorv.ar",
+    "leancorv.tech",
     "desarrollador",
     "desarrollador mobile",
     "Leandro Corvalan Linkedin",
     "leancorv github",
   ],
-  authors: [{ name: "Leancorv", url: "https://leancorv.ar" }],
+  authors: [{ name: "Leancorv", url: "https://leancorv.tech" }],
   colorScheme: "dark",
   creator: "Leandro Corvalan",
   publisher: "leancorv",
