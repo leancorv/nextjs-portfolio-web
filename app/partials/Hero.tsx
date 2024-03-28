@@ -62,7 +62,7 @@ export const Hero = () => {
             </h2>
 
             <p className="w-full text-base text-center lg:text-start mb-5 lg:mb-0 text-gray-600 dark:text-gray-400 mx-auto lg:mx-0">
-              Flutter | Kotlin | Dart | Android | Entusiasta y apasionado por la tecnologia
+              Web | Mobile | Backend | Entusiasta y apasionado por la tecnologia
             </p>
           </AnimateComponent>
         </div>
