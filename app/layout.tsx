@@ -13,7 +13,7 @@ export const metadata = {
     url: "https://www.leancorv.tech/",
     type: "website",
     description:
-      "Mobile developer. Flutter, Kotlin and Android developer. Mobile apps, clean arquitecture, and more...",
+      "Software developer. WEB, Backend and Mobile developer. Apps, clean arquitecture, and more...",
     images: [
       {
         url: "https://res.cloudinary.com/dia0mugvi/image/upload/v1687410750/ThumbnailSEO_1_i5tdcj.jpg",
@@ -39,7 +39,7 @@ export const metadata = {
     "Dart",
     "Android",
     "IOS",
-    "Mobile development",
+    "Software development",
     "Desarrollo mobile",
     "Leandro Corvalan",
     "leandro corvalan",

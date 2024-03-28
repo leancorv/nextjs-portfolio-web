@@ -10,7 +10,7 @@ const page = () => {
             Sobre mi
           </h2>
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Hola! Mi nombre es Leandro Corvalan soy estudiante de Ciencias de la Computación y Desarrollador Mobile. Me encanta ser parte de proyectos y aprender nuevas tecnologias. Soy fan de aportar mi mejor esfuerzo, tener iniciativa y comunicación. En mis tiempos libres me gusta entrenar💪, ir al cine🍿, y leer📕 
+            Hola! Mi nombre es Leandro Corvalan soy estudiante de Ciencias de la Computación y Programador. Me encanta ser parte de proyectos y aprender nuevas tecnologias. Soy fan de aportar mi mejor esfuerzo, tener iniciativa y comunicación. En mis tiempos libres me gusta entrenar💪, ir al cine🍿, y leer📕 
           </p>
         </AnimateComponent>
         <SkillsAndTools />
