@@ -16,12 +16,12 @@ export const metadata = {
       "Software developer. WEB, Backend and Mobile developer. Apps, clean arquitecture, and more...",
     images: [
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/v1687410750/ThumbnailSEO_1_i5tdcj.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1715810899/ThumbnailSEO_3_avk5kk.jpg",
         width: 1200,
         height: 630,
       },
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/v1687410988/leancorv.tech_wax8lq.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1715811873/leancorv.ar_3_bhg37g.jpg",
         width: 600,
         height: 200,
         alt: "og image",
