@@ -9,19 +9,19 @@ const interVariable = Inter({ subsets: ['latin'] });
 export const metadata = {
   openGraph: {
     title: "Leandro Corvalan - Portfolio",
-    siteName: "leancorv.tech",
-    url: "https://www.leancorv.tech/",
+    siteName: "leancorv.pro",
+    url: "https://www.leancorv.pro/",
     type: "website",
     description:
       "Software developer. WEB, Backend and Mobile developer. Apps, clean arquitecture, and more...",
     images: [
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1715810899/ThumbnailSEO_3_avk5kk.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1741989233/ThumbnailSEO1.jpg",
         width: 1200,
         height: 630,
       },
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1715811873/leancorv.ar_3_bhg37g.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1741989466/ThumbnailSEO2.jpg",
         width: 600,
         height: 200,
         alt: "og image",
@@ -46,13 +46,13 @@ export const metadata = {
     "leandro corvalan portfolio",
     "leancorv porfiolio",
     "lean portfolio",
-    "leancorv.tech",
+    "leancorv.pro",
     "desarrollador",
     "desarrollador mobile",
     "Leandro Corvalan Linkedin",
     "leancorv github",
   ],
-  authors: [{ name: "Leancorv", url: "https://leancorv.tech" }],
+  authors: [{ name: "Leancorv", url: "https://leancorv.pro" }],
   colorScheme: "dark",
   creator: "Leandro Corvalan",
   publisher: "leancorv",
