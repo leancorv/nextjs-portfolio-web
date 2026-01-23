@@ -24,7 +24,7 @@ const items = [
   },
   {
     icon: <BsDownload size={20} />,
-    href: "https://drive.google.com/file/d/1wJA1-hyHGfRoRsHQ86O2ApO-FBN1nZZ2/view",
+    href: "https://drive.google.com/file/d/1cenuob1RvCD6WfxY4VLwzjL9IuwuFkqA/view",
     title: "Curriculum",
     external: true,
   },

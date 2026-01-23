@@ -12,7 +12,7 @@ const items = [
   },
   {
     icon: <BsDownload size={20} />,
-    href: "https://drive.google.com/file/d/1wJA1-hyHGfRoRsHQ86O2ApO-FBN1nZZ2/view",
+    href: "https://drive.google.com/file/d/1cenuob1RvCD6WfxY4VLwzjL9IuwuFkqA/view",
     title: "CV",
     external: true,
   },
@@ -43,8 +43,8 @@ export const Hero = () => {
                   d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
                 />
               </svg>
-              <span className="font-semibold tracking-tight">Software</span>
-              Developer
+              <span className="font-semibold tracking-tight">DevOps Trainee</span>
+              | Cloud Enthusiast
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -62,7 +62,7 @@ export const Hero = () => {
             </h2>
 
             <p className="w-full text-base text-center lg:text-start mb-5 lg:mb-0 text-gray-600 dark:text-gray-400 mx-auto lg:mx-0">
-              Web | Mobile | Backend | Entusiasta y apasionado por la tecnologia
+              Estudiante de Ciencias de la Computación en la UBA, enfocado en la automatización de infraestructura y arquitecturas escalables en la nube.
             </p>
           </AnimateComponent>
         </div>

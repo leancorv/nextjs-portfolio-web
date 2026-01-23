@@ -111,7 +111,7 @@ export const Footer = () => {
           </Link>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/13dCnaFS_OoPAmZRLpa_-i4BsDjb6LguP/view"
+            href="https://drive.google.com/file/d/1cenuob1RvCD6WfxY4VLwzjL9IuwuFkqA/view"
             className="flex items-center gap-2 text-gray-500 hover:text-gray-600 transition ease"
           >
             <RiFilePaperFill className="w-5 h-5" />
