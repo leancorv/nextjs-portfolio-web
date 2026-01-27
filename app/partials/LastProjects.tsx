@@ -11,7 +11,7 @@ const lastProjects = [
     repo: "https://github.com/leancorv/mymovies",
     link: "https://github.com/leancorv/mymovies",
     description:
-      "Aplicación de Películas. Desarrollada en Flutter, con arquitectura limpia. Disponible en GooglePlay",
+      "Aplicación de Películas. Desarrollada en Flutter, con arquitectura limpia.",
   },
   {
     image:

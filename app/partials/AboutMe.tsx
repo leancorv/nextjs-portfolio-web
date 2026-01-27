@@ -8,12 +8,10 @@ export const AboutMe = () => {
       </h2>
 
       <p className="text-base text-gray-600 dark:text-gray-400">
-        Soy Software Developer y estudiante de Ciencias de la Computación.📱
-        Estoy en la búsqueda de desarrollar mi carrera profesional y hacer lo que amo: La tecnología y la programación.🚀
-        Siempre con muchas ganas de aprender, desarrollarme, sobrepasar expectativas, trabajar en equipo y apuntar hacia el futuro.✨
-        <br></br>
-        <br></br>
-        Skills/Intereses: JavaScript, TypeScript, ReactJS, Java, Flutter, Kotlin, Node.js, MongoDB, HTML, CSS, Git, Firebase.
+        Soy estudiante de Licenciatura en Ciencias de la Computación en la UBA y estoy orientando mi carrera profesional hacia la cultura DevOps y el ecosistema Cloud. 
+        Me apasiona la intersección entre el desarrollo de software y la infraestructura, enfocándome en la automatización, containerización y el despliegue de soluciones escalables.
+        <br />
+        Actualmente dedico mi formación a dominar herramientas como Docker, Terraform y AWS, aplicando la rigurosidad académica de mi formación universitaria para resolver problemas complejos de infraestructura
       </p>
     </AnimateComponent>
   );

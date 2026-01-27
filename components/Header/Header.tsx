@@ -1,5 +1,5 @@
 import { BiArchive, BiHomeAlt2 } from "react-icons/bi";
-import { BsPerson, BsDownload } from "react-icons/bs";
+import { BsCodeSlash, BsDownload } from "react-icons/bs";
 import { AnimateComponent } from "@/utils/AnimateComponent";
 import MobileNav from "./MobileNav";
 import NavItem from "./NavItem";
@@ -18,9 +18,9 @@ const items = [
     title: "Proyectos",
   },
   {
-    icon: <BsPerson size={20} />,
-    href: "/aboutme",
-    title: "Sobre mi",
+    icon: <BsCodeSlash size={20} />,
+    href: "/techstack",
+    title: "Tech Stack",
   },
   {
     icon: <BsDownload size={20} />,
