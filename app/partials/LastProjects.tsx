@@ -6,21 +6,21 @@ import Link from "next/link";
 const lastProjects = [
   {
     image:
+      "https://i.postimg.cc/9Xk9bhx5/Cada-Dia-Con-Messi.png",
+    title: "Cada Día con Messi",
+    repo: "https://github.com/leancorv/CalendarioGolesMessi",
+    link: "https://calendario-goles-messi.vercel.app/",
+    description:
+    "Calendario de Goles. Proyecto Vibe-Coding",
+  },
+  {
+    image:
       "https://i.postimg.cc/mDZQ9F98/My-Movies-App.png",
     title: "MyMovies App",
     repo: "https://github.com/leancorv/mymovies",
     link: "https://github.com/leancorv/mymovies",
     description:
       "Aplicación de Películas. Desarrollada en Flutter, con arquitectura limpia.",
-  },
-  {
-    image:
-      "https://raw.githubusercontent.com/leancorv/nextjs-spotify/main/public/screenshots/nextjs-spotify-searching.png",
-    title: "Spotify Clone Web App",
-    repo: "https://github.com/leancorv/nextjs-spotify",
-    link: "https://nextjs-spotify-rho.vercel.app/",
-    description:
-    "Spotify Clone (Next.js, Spotify API, NextAuth, Tailwind CSS, Recoil)",
   },
 ];
 
