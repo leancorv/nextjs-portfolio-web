@@ -9,19 +9,19 @@ const interVariable = Inter({ subsets: ['latin'] });
 export const metadata = {
   openGraph: {
     title: "Leandro Corvalan - Portfolio",
-    siteName: "leancorv.pro",
-    url: "https://www.leancorv.pro/",
+    siteName: "leancorv.cloud",
+    url: "https://www.leancorv.cloud/",
     type: "website",
     description:
       "DevOps Trainee. Cloud Enthusiast. AWS, Docker, Kubernetes, Terraform, CI/CD.",
     images: [
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1741989233/ThumbnailSEO1.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1773725422/Thumbnail-SEO1_uuem2a.jpg",
         width: 1200,
         height: 630,
       },
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1741989466/ThumbnailSEO2.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1773720451/Thumbnail-SEO2_wugrsg.jpg",
         width: 600,
         height: 200,
         alt: "og image",
@@ -46,13 +46,13 @@ export const metadata = {
     "leandro corvalan portfolio",
     "leancorv portfolio",
     "lean portfolio",
-    "leancorv.pro",
+    "leancorv.cloud",
     "devops trainee",
     "cloud enthusiast",
     "Leandro Corvalan Linkedin",
     "leancorv github",
   ],
-  authors: [{ name: "Leancorv", url: "https://leancorv.pro" }],
+  authors: [{ name: "Leancorv", url: "https://leancorv.cloud" }],
   colorScheme: "dark",
   creator: "Leandro Corvalan",
   publisher: "leancorv",
