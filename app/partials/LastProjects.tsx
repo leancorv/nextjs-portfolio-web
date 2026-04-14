@@ -4,6 +4,15 @@ import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import Link from "next/link";
 
 const lastProjects = [
+    {
+    image:
+      "https://i.postimg.cc/nLnR7vQG/Anatomia-Gol-Messi.png",
+    title: "Anatomía Gol Messi",
+    repo: "https://github.com/leancorv/AnatomiaGolMessi",
+    link: "https://anatomiagolmessi.streamlit.app/",
+    description:
+      "Análisis exploratorio de datos de los goles de Messi",
+  },
   {
     image:
       "https://i.postimg.cc/9Xk9bhx5/Cada-Dia-Con-Messi.png",
@@ -12,15 +21,6 @@ const lastProjects = [
     link: "https://calendario-goles-messi.vercel.app/",
     description:
     "Calendario de Goles. Proyecto Vibe-Coding",
-  },
-  {
-    image:
-      "https://i.postimg.cc/mDZQ9F98/My-Movies-App.png",
-    title: "MyMovies App",
-    repo: "https://github.com/leancorv/mymovies",
-    link: "https://github.com/leancorv/mymovies",
-    description:
-      "Aplicación de Películas. Desarrollada en Flutter, con arquitectura limpia.",
   },
 ];
 
