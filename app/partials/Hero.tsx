@@ -43,8 +43,8 @@ export const Hero = () => {
                   d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
                 />
               </svg>
-              <span className="font-semibold tracking-tight text-base">DevOps Trainee</span>
-              | <span className="text-base">Cloud Enthusiast</span>
+              <span className="font-semibold tracking-tight text-base">Software Developer</span>
+              | <span className="text-base">Cloud & MLOps Enthusiast</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -62,7 +62,7 @@ export const Hero = () => {
             </h2>
 
             <p className="w-full text-base text-center lg:text-start mb-5 lg:mb-0 text-gray-800 dark:text-gray-800 mx-auto lg:mx-0">
-              Estudiante de Ciencias de la Computación en la UBA, enfocado en la automatización de infraestructura y arquitecturas escalables en la nube.
+              Estudiante de Ciencia de Datos (UBA) enfocado en el desarrollo de software y arquitecturas de datos para resolver problemas complejos.
             </p>
           </AnimateComponent>
         </div>

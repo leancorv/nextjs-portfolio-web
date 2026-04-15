@@ -2,28 +2,16 @@ import { AnimateComponent } from "@/utils/AnimateComponent";
 
 const skills = [
   {
+    title: "📊 Data & Analysis",
+    techs: ["Pandas", "NumPy", "SQL", "Streamlit", "Matplotlib", "Jupyter Notebooks"],
+  },
+  {
     title: "☁️ Cloud & Infrastructure",
-    techs: ["Docker", "Terraform", "AWS (Learning)", "Linux", "Firebase", "Google IT Support Certified"],
+    techs: ["Google Cloud","Docker", "Terraform", "AWS", "CI/CD"],
   },
   {
-    title: "👨‍💻 Lenguajes & Scripting",
-    techs: ["Python", "Bash", "Java", "JavaScript", "TypeScript", "Dart", "Kotlin"],
-  },
-  {
-    title: "🚀 Frameworks & Librerías",
-    techs: ["Next.js", "React", "Node.js", "Flutter", "Django", "Express.js"],
-  },
-  {
-    title: "🗄️ Backend Stack",
-    techs: ["PostgreSQL", "MongoDB", "SQL", "GraphQL", "Sequelize"],
-  },
-  {
-    title: "🛠️ Software & Tools",
-    techs: ["Git", "GitHub Actions", "Figma", "Photoshop"],
-  },
-  {
-    title: "🤝 Metodologías",
-    techs: ["SCRUM", "KanBan"],
+    title: "👨‍💻 Software Dev",
+    techs: ["Python", "Bash", "Java", "JavaScript", "TypeScript", "React", "Next.js"],
   },
 ];
 
