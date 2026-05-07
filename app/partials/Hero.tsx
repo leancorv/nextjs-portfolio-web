@@ -62,7 +62,7 @@ export const Hero = () => {
             </h2>
 
             <p className="w-full text-base text-center lg:text-start mb-5 lg:mb-0 text-gray-800 dark:text-gray-800 mx-auto lg:mx-0">
-              Estudiante de Ciencia de Datos (UBA) enfocado en el desarrollo de software y arquitecturas de datos para resolver problemas complejos.
+              Estudiante de Ciencias de Datos (UBA) enfocado en el desarrollo de software y arquitecturas de datos para resolver problemas complejos.
             </p>
           </AnimateComponent>
         </div>

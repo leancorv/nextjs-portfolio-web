@@ -41,7 +41,7 @@ export const metadata = {
     "leandro corvalan portfolio",
     
     // Educación y Perfil
-    "Ciencia de Datos UBA",
+    "Ciencias de Datos UBA",
     "Data Science",
     "Software Developer",
     "Estudiante UBA",

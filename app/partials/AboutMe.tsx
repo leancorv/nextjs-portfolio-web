@@ -8,7 +8,7 @@ export const AboutMe = () => {
       </h2>
 
       <p className="text-base text-gray-600 dark:text-gray-400">
-        Soy estudiante de Ciencia de Datos en la UBA con una sólida formación en algoritmos y arquitectura de sistemas. Mi enfoque se centra en modelar sistemas reales y optimizar la toma de decisiones mediante el análisis de datos y la construcción de infraestructura escalable.
+        Soy estudiante de Ciencias de Datos en la UBA con una sólida formación en algoritmos y arquitectura de sistemas. Mi enfoque se centra en modelar sistemas reales y optimizar la toma de decisiones mediante el análisis de datos y la construcción de infraestructura escalable.
         <br />
         Cuento con experiencia práctica en Python, SQL y entornos containerizados, buscando optimizar procesos mediante la automatización y el modelado estadístico.
         <br />
