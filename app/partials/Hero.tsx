@@ -44,7 +44,7 @@ export const Hero = () => {
                 />
               </svg>
               <span className="font-semibold tracking-tight text-base">Software Developer</span>
-              | <span className="text-base">Cloud & MLOps Enthusiast</span>
+              | <span className="text-base">AI & Data Automation</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -62,7 +62,7 @@ export const Hero = () => {
             </h2>
 
             <p className="w-full text-base text-center lg:text-start mb-5 lg:mb-0 text-gray-800 dark:text-gray-800 mx-auto lg:mx-0">
-              Estudiante de Ciencias de Datos (UBA) enfocado en el desarrollo de software y arquitecturas de datos para resolver problemas complejos.
+             Estudiante de Ciencias de Datos (UBA) enfocado en el desarrollo de software y arquitecturas de datos para resolver problemas complejos mediante IA y automatización.
             </p>
           </AnimateComponent>
         </div>

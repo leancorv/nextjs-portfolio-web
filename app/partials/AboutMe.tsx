@@ -12,7 +12,7 @@ export const AboutMe = () => {
         <br />
         Cuento con experiencia práctica en Python, SQL y entornos containerizados, buscando optimizar procesos mediante la automatización y el modelado estadístico.
         <br />
-        Mi objetivo es evolucionar hacia el ecosistema MLOps, uniendo la ingeniería de software con la ciencia de datos para crear soluciones de alto impacto.
+        Me enfoco en unir la ingeniería de software con la Ciencia de Datos para crear productos de alto impacto, optimizando procesos mediante la automatización y la inteligencia artificial en entornos escalables
       </p>
     </AnimateComponent>
   );

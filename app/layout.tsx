@@ -45,7 +45,7 @@ export const metadata = {
     "Data Science",
     "Software Developer",
     "Estudiante UBA",
-    "MLOps Enthusiast",
+    "AI & Data Automation",
     
     // Stack Técnico (Data & Dev)
     "Python",
