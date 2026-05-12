@@ -16,12 +16,12 @@ export const metadata = {
       "DevOps Trainee. Cloud Enthusiast. AWS, Docker, Kubernetes, Terraform, CI/CD.",
     images: [
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1776227072/ThumbnailSEO-1_borx7p.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1778572813/Thumbnail-SEO-1_amnnqb.jpg",
         width: 1200,
         height: 630,
       },
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1776227168/ThumbnailSEO-2_dna30q.jpgg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1778573111/Thumbnail-SEO-2_nwwjll.jpg",
         width: 600,
         height: 200,
         alt: "og image",
