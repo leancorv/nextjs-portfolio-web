@@ -13,15 +13,15 @@ export const metadata = {
     url: "https://www.leancorv.cloud/",
     type: "website",
     description:
-      "DevOps Trainee. Cloud Enthusiast. AWS, Docker, Kubernetes, Terraform, CI/CD.",
+      "Ciencias de Datos UBA. Software Developer. AI & Data Automation, Data Science, Cloud.",
     images: [
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1778572813/Thumbnail-SEO-1_amnnqb.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/v1778572813/Thumbnail-SEO-1_amnnqb.png",
         width: 1200,
         height: 630,
       },
       {
-        url: "https://res.cloudinary.com/dia0mugvi/image/upload/fl_preserve_transparency/v1778573111/Thumbnail-SEO-2_nwwjll.jpg",
+        url: "https://res.cloudinary.com/dia0mugvi/image/upload/v1778573111/Thumbnail-SEO-2_nwwjll.png",
         width: 600,
         height: 200,
         alt: "og image",
