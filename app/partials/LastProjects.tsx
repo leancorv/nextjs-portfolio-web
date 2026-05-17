@@ -6,6 +6,15 @@ import Link from "next/link";
 const lastProjects = [
     {
     image:
+      "https://i.postimg.cc/NjtmgwcV/bet-analyzer-ai.png",
+    title: "BetAnalyzer AI",
+    repo: "https://github.com/leancorv/bet-analyzer",
+    link: "https://bet-analyzer-481449893584.us-central1.run.app/",
+    description:
+      "Agente de IA que analiza partidos de fútbol cruzando estadísticas reales",
+  },
+  {
+    image:
       "https://i.postimg.cc/nLnR7vQG/Anatomia-Gol-Messi.png",
     title: "Anatomía Gol Messi",
     repo: "https://github.com/leancorv/AnatomiaGolMessi",
@@ -48,46 +57,46 @@ const LastProjects = () => {
         .
       </p>
 
-      <ul className="flex flex-col lg:flex-row gap-6 w-[80%] mx-auto lg:w-full">
+      <ul className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-[80%] mx-auto lg:w-full">
         {lastProjects.map((p) => (
           <li
             key={p.title}
-            className=" w-full bg-gray-50 dark:bg-gray-900 dark:bg-opacity-20 bg-opacity-20 backdrop-filter backdrop-blur-sm  rounded-xl dark:border-gray-700 border border-gray-300"
+            className="w-full h-full bg-gray-50 dark:bg-gray-900 dark:bg-opacity-20 bg-opacity-20 backdrop-filter backdrop-blur-sm rounded-xl border border-gray-400 dark:border-slate-700 overflow-hidden flex flex-col hover:shadow-lg transition-shadow"
           >
-            <div className="relative rounded-[15px] p-6">
-              <div className="space-y-3">
-                <div className="w-[200px] lg:w-[400px] flex flex-col items-center justify-center mx-auto h-[300px]">
-                  <Image
-                    width={400}
-                    height={400}
-                    src={p.image}
-                    alt={p.title}
-                    className="rounded mx-auto"
-                  />
-                </div>
-                <p className="text-3xl dark:text-gray-50 font-semibold text-slate-800">
-                  {p.title}
-                </p>
-                <p className="font-md text-slate-500">{p.description}</p>
-              </div>
+            <div className="relative w-full aspect-video overflow-hidden bg-gray-200 dark:bg-gray-800">
+              <Image
+                width={500}
+                height={300}
+                src={p.image}
+                alt={p.title}
+                className="w-full h-full object-cover"
+              />
             </div>
-            <div className="flex mx-auto items-center justify-center mb-6 gap-6">
-              <Link
-                href={p.repo}
-                target="_blank"
-                aria-label={p.title}
-                title={p.title}
-                className="group w-10 h-15 bg-dark rounded-lg bg-white bg-opacity-50 dark:bg-black dark:bg-opacity-10 ring-1 ring-gray-200 hover:ring-gray-200 dark:ring-gray-700 dark:hover:ring-gray-600  group-hover:text-gray-800 dark:text-gray-500 dark:group-hover:text-gray-200 flex items-center justify-center transition ease"
-              >
-                <AiFillGithub className="w-full h-full"/>
-              </Link>
-              <Link
-                href={p.link}
-                target="_blank"
-                className=" self-end w-10 h-15 bg-dark rounded-lg bg-white bg-opacity-50 dark:bg-black dark:bg-opacity-10 ring-1 ring-gray-200 hover:ring-gray-200 dark:ring-gray-700 dark:hover:ring-gray-600  group-hover:text-gray-800 dark:text-gray-500 dark:group-hover:text-gray-200 flex items-center justify-center transition ease"
-              >
-                <AiOutlineLink className="w-full h-full"/>
-              </Link>
+            <div className="flex-1 flex flex-col p-6">
+              <p className="text-xl lg:text-2xl dark:text-gray-50 font-semibold text-slate-800 line-clamp-2 mb-3">
+                {p.title}
+              </p>
+              <p className="text-sm text-slate-500 dark:text-slate-400 flex-1 line-clamp-3 mb-4">
+                {p.description}
+              </p>
+              <div className="flex items-center justify-center gap-6 mt-auto pt-4 border-t border-gray-400 dark:border-slate-700">
+                <Link
+                  href={p.link}
+                  target="_blank"
+                  className="group w-10 h-10 bg-gray-700 dark:bg-gray-300 text-white dark:text-black ring-1 ring-gray-600 dark:ring-gray-400 hover:ring-gray-800 dark:hover:ring-gray-500 rounded-lg flex items-center justify-center transition-all hover:scale-110"
+                >
+                  <AiOutlineLink className="w-5 h-5"/>
+                </Link>
+                <Link
+                  href={p.repo}
+                  target="_blank"
+                  aria-label={p.title}
+                  title={p.title}
+                  className="group w-10 h-10 bg-gray-700 dark:bg-gray-300 text-white dark:text-black ring-1 ring-gray-600 dark:ring-gray-400 hover:ring-gray-800 dark:hover:ring-gray-500 rounded-lg flex items-center justify-center transition-all hover:scale-110"
+                >
+                  <AiFillGithub className="w-5 h-5"/>
+                </Link>
+              </div>
             </div>
           </li>
         ))}
